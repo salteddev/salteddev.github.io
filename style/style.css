@@ -29,7 +29,7 @@ h1, h2, h3{
     justify-content: center;
     width: 100%;
     height: 670px;
-    background: url(img/intro.jpg) no-repeat center;
+    background: url(/img/intro.jpg) no-repeat center;
     background-size: cover;
 }
 .intro_title{
@@ -187,7 +187,7 @@ h1, h2, h3{
 /* Video Story */
 .video_story{
     height: 550px;
-    background: url(img/video_background.jpg) no-repeat, center;
+    background: url(/img/video_background.jpg) no-repeat, center;
     background-size: cover;
     z-index: 0;
 }
@@ -279,7 +279,7 @@ h1, h2, h3{
 }
 /* Team */
 .team{
-    background: url(img/team_background.jpg) no-repeat, center;
+    background: url(/img/team_background.jpg) no-repeat, center;
     background-size: cover;
     height: 710px;
 }
@@ -312,7 +312,7 @@ h1, h2, h3{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(img/team_unit.jpg);
+    background: url(/img/team_unit.jpg);
     background-size: cover;
     height: 230px;
 }
@@ -415,13 +415,13 @@ transition: all 250ms ease;
 .project{
     width:17%;
     height: 200px;
-    background: url(img/project.jpg) center;
+    background: url(/img/project.jpg) center;
     background-size: cover;
 }
 .project2{
     width:17%;
     height: 200px;
-    background: url(img/project2.jpg) center;
+    background: url(/img/project2.jpg) center;
     background-size: cover;
 }
 .project:hover{
@@ -442,7 +442,7 @@ transition: all 250ms ease;
 /*Slider*/
 .slider_section{
     height: 500px;
-    background: url(img/slider_background.jpg) center, no-repeat;
+    background: url(/img/slider_background.jpg) center, no-repeat;
     background-size:cover;
 }
 .quotes{
@@ -497,7 +497,7 @@ transition: all 250ms ease;
     min-width: 50px;
     margin-left: 15px;
     margin-right: 15px;
-    background: url(img/team_unit.jpg) no-repeat, center;
+    background: url(/img/team_unit.jpg) no-repeat, center;
     background-size: cover;
     border-radius: 25px;
 }
@@ -506,7 +506,7 @@ transition: all 250ms ease;
     min-width: 150px;
     margin-left: 15px;
     margin-right: 15px;
-    background: url(img/team_unit.jpg) no-repeat, center;
+    background: url(/img/team_unit.jpg) no-repeat, center;
     background-size: cover;
     border-radius: 25px;
 }
@@ -577,7 +577,7 @@ transition: all 250ms ease;
 /* Footer */
 .footer{
     height: 400px;
-    background: url(img/footer.jpg) center, no-repeat;
+    background: url(/img/footer.jpg) center, no-repeat;
     background-size: cover;
 }
 .footer .container{
@@ -663,8 +663,6 @@ transition: all 250ms ease;
 .right_wrapper{
     margin-left: 60px;
 }
-.right_wrapper .footer_header{
-    margin-bottom:c
 }
 .input_wrapper{
     display: flex;
@@ -688,7 +686,7 @@ transition: all 250ms ease;
     height: 45px;
     width: 70px;
     margin-left: 5px;
-    background: url(img/social_media/Btn.png) no-repeat, center;
+    background: url(/img/social_media/Btn.png) no-repeat, center;
     background-size: cover;
     cursor: pointer;
 }
