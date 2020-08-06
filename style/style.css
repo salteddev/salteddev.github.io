@@ -974,3 +974,71 @@ transition: all 250ms ease;
         margin-top: 20px;
     }
 }
+@media(max-width:425px){
+    .intro{
+        height: 400px;
+    }
+    .intro_title{
+        font-size: 24px;
+    }
+    .intro_title:after{
+        margin: 15px auto;
+    }
+    .intro_text{
+        font-size: 12px;
+        margin-bottom: 40px;
+    }
+    .about_emblem img{
+        margin-top: 55px;
+        height: 100px;
+    }
+    .about_story{
+        font-size: 12px;
+    }
+    .expertise {
+        height: 555px;
+    }
+    .content_text{
+        font-size: 10px;
+    }
+    .expertise_header {
+        margin-top: 10px;
+    }
+    .slider_section {
+        height: 375px;
+    }
+    .quotes_output {
+        width: 390px;
+        height: 150px;
+    }
+    .quote_item {
+        font-size: 12px;
+    }
+    .quotes:before{
+        font-size: 90px;
+    }
+    .quotes {
+        height: 85px;
+    }
+    .name_post{
+        font-size: 12px;
+    }
+    .wrapper{
+        width: 245px;
+        
+    }
+    .slider_track{
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+    .clients{
+        display: none;
+    }
+    .footer{
+        height: 240px;
+    }
+    .footer_letter{
+        width: 125px;
+    }
+}
