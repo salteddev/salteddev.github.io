@@ -774,6 +774,9 @@ transition: all 250ms ease;
     .about_member p{
         font-size: 10px;
     }
+    .works{
+        height:560px;
+    }
     .hiring{
         margin-top: 35px;
     }
@@ -901,11 +904,15 @@ transition: all 250ms ease;
     .quote_item{
         font-size: 13px;
     }
+    .our_clients{
+        height:555px;
+    }
     #container_clients {
         margin-top: 10px;
     }
     #container_clients .section_title{
         font-size: 19px;
+        padding-top: 10px;
     }
     .clients h2 {
         margin-bottom: 5px;
@@ -1001,7 +1008,7 @@ transition: all 250ms ease;
         margin-top: 20px;
     }
     .slider_section {
-        height: 375px;
+        height: 400px;
     }
     .quotes_output {
         width: 390px;
