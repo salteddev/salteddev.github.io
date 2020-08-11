@@ -882,7 +882,8 @@ transition: all 250ms ease;
     .side_nav{
         display: flex;
         flex-direction: column;
-        background-color: #42326a;
+        background: url(/img/intro.jpg) center, no-repeat;
+        background-size: cover;
         height: 100%;
         width: 0;
         position: fixed;
